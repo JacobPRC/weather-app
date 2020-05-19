@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ace6ff;
+}
+
+.current-weather {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/bg-clouds.png")
+    repeat 0 0 transparent;
+  width: 100%;
+  height: 87vh;
+}
+
+.row.m-6 {
+  padding: 2%;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+.card-body-curr {
+  margin-left: 20%;
+  margin: 16px;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(43, 50, 178) 0%,
+    rgb(20, 136, 204) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.05rem solid black;
+  padding: 2%;
+}
+.two {
+  display: flex;
+  width: 100% auto;
+  height: 100% auto;
+}
+.temp {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.desc {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding: 2%;
+}
+.card-text-desc {
+  text-align: center;
+  padding-right: 2rem;
+}
+.card-text-temp {
+  font-size: 2rem;
+  padding-right: 2%;
+}
+img {
+  height: 70%;
+  width: 30%;
+  padding-right: 2%;
+}
+.max-min {
+  display: flex;
+  width: 100% auto;
+  border-top: 0.05px solid black;
+}
+.max {
+  width: 45%;
+  padding: 2%;
+  text-align: center;
+}
+.min {
+  width: 45%;
+  padding: 2%;
+  text-align: center;
+}
+.extras {
+  display: flex;
+  justify-content: space-evenly;
+}
+.extras p {
+  padding: 2%;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18%;
+  color: white;
+}
+.home h1 {
+  padding-bottom: 10%;
+}
+.home-design {
+  background-color: black;
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
