@@ -61,7 +61,7 @@ class CurrentWeather extends React.Component {
         <div ref={(div) => (this.myElement = div)} className="current-weather">
           <content>
             <div className="row m-6">
-              <div className="col-sm-10">
+              <div id="weather-box" className="col-sm-7">
                 <div className="card-curr">
                   <div className="card-body-curr">
                     <div className="one">
